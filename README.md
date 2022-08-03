@@ -1,2 +1,2 @@
-# Kill-Switch
-A 2D puzzle platformer centered around switching between three characters (by killing them)
+# Kill/Switch
+A 2D puzzle platformer made in Godot centered around switching between three characters (by killing them)
