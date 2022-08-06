@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="bg-tiles" tilewidth="8" tileheight="8" tilecount="256" columns="16">
+  <image source="../gfx/bg-tiles.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="257" name="level-gfx" tilewidth="8" tileheight="8" tilecount="64" columns="8">
+  <image source="../gfx/level-gfx.png" width="64" height="64"/>
+  <tile id="1">
+   <objectgroup draworder="index" id="3">
+    <object id="4" x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="8" height="8"/>
+    <object id="2" x="-31.75" y="43.5"/>
+   </objectgroup>
+  </tile>
+  <wangsets>
+   <wangset name="Unnamed Set" type="corner" tile="2">
+    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
+    <wangtile tileid="0" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="2" wangid="0,1,0,1,0,1,0,1"/>
+   </wangset>
+   <wangset name="Unnamed Set" type="mixed" tile="-1">
+    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCMUBANgBAAAAAwEAAAIBAAADAQkBAAAKAQAACwECAQoJABSkYu4pdg9SWJBiaxuBLUE6P6BgZnMz/HdE
+  </data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1" visible="0"/>
+</map>
