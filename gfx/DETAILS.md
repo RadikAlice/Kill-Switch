@@ -1,1 +1,2 @@
-Currently all tileset graphics are made in Pixelorama
+Currently all graphics are made in LibreSprite
+Aseprite should also work
