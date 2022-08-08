@@ -8,7 +8,7 @@
 - Plays random 'suicide' animation upon selection
 ## Character skills
 - Explained in tutorial level
-- Activated via context, i.e. collision detection
+- Activated via context, i.e. collision detection (Except for slide)
 ### Player1 (Christie)
 - Can walk on spikes
 - Average jump
@@ -29,7 +29,7 @@
 - Multiplayer mode only, No unique skills
 - Can be used as a skin for any other character in singleplayer
 # Objects, hazards
-- Levers, button (On background, triggered by pressing up)
+- Lever, button (On background, triggered by pressing up)
 - Laser barrier (H and V)
 - Timed barrier
 - Spike cannon
