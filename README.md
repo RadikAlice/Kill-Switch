@@ -3,3 +3,5 @@
 A 2D puzzle platformer set in a bleak, industrial facility centered around switching between three characters (by killing them)
 
 Not in active development, might use the old assets here or recreate them for the new 2.5D direction
+
+Fonts in the logo are: Underwood Champion and Squarewave
